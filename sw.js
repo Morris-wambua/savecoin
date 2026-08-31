@@ -1,5 +1,5 @@
-const CACHE='savecoin-v1.3.0';
-const ASSETS=['./','./index.html','./css/app.css','./js/app.js','./js/config.js','./js/db.js','./js/finance.js','./manifest.webmanifest','./icons/icon.svg','./icons/icon-192.png','./icons/icon-512.png','./icons/maskable-512.png'];
+const CACHE='savecoin-v1.3.1';
+const ASSETS=['./','./index.html','./app.css','./app.js','./config.js','./db.js','./finance.js','./manifest.webmanifest','./icon.svg','./icon-192.png','./icon-512.png','./maskable-512.png'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS))));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
 self.addEventListener('message',e=>{if(e.data?.type==='SKIP_WAITING')self.skipWaiting()});
