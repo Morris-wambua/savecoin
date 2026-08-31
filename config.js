@@ -25,11 +25,7 @@ export const DEFAULTS = {
     {id:'operating-cash',name:'Operating cash',type:'cash',balance:0,committed:0,liquidity:'same-day'},
     {id:'long-term-investment',name:'Long-term investment',type:'investment',balance:0,committed:0,expectedReturn:0,liquidity:'lower'}
   ],
-  loans: [
-    {id:'loan-1',name:'Loan 1',balance:0,original:0,rate:0,minPayment:0,priority:2,purpose:'',notes:''},
-    {id:'loan-2',name:'Loan 2',balance:0,original:0,rate:0,minPayment:0,priority:3,purpose:'',notes:''},
-    {id:'priority-loan',name:'Priority loan',balance:0,original:0,rate:0,minPayment:0,priority:1,purpose:'',notes:'Confirm the current settlement amount and early-settlement terms'}
-  ],
+  loans: [],
   budgets: [
     {id:'rent',name:'Rent',amount:0,kind:'essential'}, {id:'water',name:'Water',amount:0,kind:'essential'},
     {id:'electricity',name:'Electricity',amount:0,kind:'essential'}, {id:'wifi',name:'Wi-Fi',amount:0,kind:'essential'},
