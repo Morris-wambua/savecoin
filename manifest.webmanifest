@@ -1,5 +1,5 @@
 {
-  "name":"SaveCoin — Personal Finance","short_name":"SaveCoin","description":"Private, local-first budgeting and wealth building","id":"./","start_url":"./","scope":"./","display":"standalone","background_color":"#11121f","theme_color":"#11121f","orientation":"portrait-primary",
+  "name":"SaveCoin — Personal Finance","short_name":"SaveCoin","description":"Private, local-first budgeting and wealth building","id":"./","start_url":"./","scope":"./","display":"standalone","background_color":"#f4f2ea","theme_color":"#10251d","orientation":"portrait-primary",
   "categories":["finance","productivity"],
   "icons":[
     {"src":"./icon-192.png","sizes":"192x192","type":"image/png"},
